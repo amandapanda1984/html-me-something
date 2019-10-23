@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    background-image: radial-gradient(
+      hotpink, black 120%
+    );
+    height: 100vh;
+  }
+  
+  
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 370px;
+      width: 30%;
+      border: .1rem solid deeppink;
+      align-content: center;
+      
+    }
+  
+    
+    p {
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: italic bolder;
+      font-size: 16px;
+      padding-bottom: 20px;
+  
+    }
+    
+    #heading {
+      color: white;
+      text-align: center;
+      text-shadow: .1rem .1rem deeppink;
+      border: red;
+      font-family: 'Aclonica';
+      font-size: 45px;
+      font-style: normal;
+      background-color: black;
+    }
+  
+  h3 {
+    color: white;
+    
+    }
+    
+    #sub-heading {
+      color: white;
+      text-align: center;
+      text-shadow: .1rem .1rem hotpink;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: oblique;
+      background-color: black;
+    }
+  
+    
+    .bottom p {
+      padding-bottom: 170px;
+  
+    }
+   
+    
+    
+    /* remove default underline */
+    a:link {
+      color: greenyellow;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: green;
+      text-decoration: none;
+    }
+    
+    /* mouse over link */
+    a:hover {
+        color: greenyellow;
+    }
+    
+    footer {
+      color: white;
+      text-align: center;
+      font-family: Courier;
+      font-size: 14px;
+      background-color: black;
+    }
